@@ -1,0 +1,56 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-image: url('Kitty.jpg'); /* Imagen de fondo */
+    background-size: cover;           /* Hace que la imagen cubra todo el fondo */
+    background-position: center;      /* Centra la imagen */
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.content {
+    margin: 20px;
+}
+
+.love-image img {
+    max-width: 300px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.song-link {
+    font-size: 1.5em;
+    color: #ff69b4;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.song-link:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
